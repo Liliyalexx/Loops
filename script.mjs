@@ -100,15 +100,15 @@
 
 // console.log("=======================================")
 
-// // const str = "Hello World";
+const str = "Hello World";
 
-// // for (let i = 0; i < str.length; i++) {
-// // 	if (str[i] == "l") {
-// // 		continue;
-// // 	}
+for (let i = 0; i < str.length; i++) {
+	if (str[i] == "l") {
+		continue;
+	}
 
-// // 	console.log(str[i]);
-// // }
+	console.log(str[i]);
+}
 
 // console.log("=======================================")
 // const str = "Hello World";
@@ -216,18 +216,18 @@
 // // Print all prime numbers between 0 and 20.
 // let num1 = 0;
 
-// while (num1 <= 20) {
-//   if (num1 < 4) {
-//     console.log(`${num1} is a prime num1ber`);
-//   } else if (num1 % 2 == 0) {
-//     console.log(num1 * 3);
-//   } else if (num1 % 2 !== 0 && num1 % 3 !== 0) {
-//     console.log(`${num1} is a prime number`);
-//   }
+while (num1 <= 20) {
+  if (num1 < 4) {
+    console.log(`${num1} is a prime num1ber`);
+  } else if (num1 % 2 == 0) {
+    console.log(num1 * 3);
+  } else if (num1 % 2 !== 0 && num1 % 3 !== 0) {
+    console.log(`${num1} is a prime number`);
+  }
 
-//   num1++;
-// }
-// console.log("=======================================")
+  num1++;
+}
+console.log("=======================================")
 
 
 // // Romeo went to the vending machine to buy himself a cookie, which costs $4. He paid with a $10 bill, and the vending machine gave him his change in quarters.
